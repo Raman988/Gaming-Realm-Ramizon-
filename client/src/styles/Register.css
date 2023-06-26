@@ -1,0 +1,87 @@
+.auth_page {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 2rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #1f1f1f;
+    color: #fff;
+    font-family: Arial, sans-serif;
+  }
+  
+  .auth_page h3 {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 2rem;
+    text-shadow: 2px 2px 0 #000;
+  }
+  
+  .auth_page label {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+    display: block;
+    text-shadow: 2px 2px 0 #000;
+  }
+  
+  .auth_page input[type="text"],
+  .auth_page input[type="email"],
+  .auth_page input[type="password"] {
+    font-size: 1.2rem;
+    padding: 0.5rem;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 1rem;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .auth_page input[type="text"]:focus,
+  .auth_page input[type="email"]:focus,
+  .auth_page input[type="password"]:focus {
+    outline: none;
+    box-shadow: 0 0 3px 2px #fd2d6a;
+  }
+  
+  .auth_page small {
+    color: #fd2d6a;
+    font-size: 1rem;
+    margin-top: 0.5rem;
+    display: block;
+  }
+  
+  .auth_page .pass {
+    position: relative;
+  }
+  
+  .auth_page .pass small {
+    position: absolute;
+    top: 50%;
+    right: 0.5rem;
+    transform: translateY(-50%);
+    cursor: pointer;
+    font-size: 1rem;
+    color: #fd2d6a;
+  }
+  
+  .auth_page button[type="submit"] {
+    background-color: #fd2d6a;
+    color: #fff;
+    font-size: 1.2rem;
+    padding: 0.5rem;
+    border-radius: 5px;
+    border: none;
+    margin-top: 1rem;
+    width: 100%;
+    text-transform: uppercase;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+    box-shadow: 2px 2px 0 #000;
+  }
+  
+  .auth_page button[type="submit"]:hover {
+    background-color: #e31964;
+    box-shadow: 3px 3px 0 #000;
+  }
+  
