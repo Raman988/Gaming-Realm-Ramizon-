@@ -39,7 +39,7 @@
 ## Project Structure
 - /: Contains the Express.js server code.
 - client/: Contains the React frontend code.
-- database/: Includes database schema and setup files.
+- models/: Includes database schema and setup files.
 
 ## Usage
 - Register and create a profile to start engaging with the gaming community.
