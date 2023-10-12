@@ -58,8 +58,8 @@ const RightSide = () => {
         files.forEach(file => {
             if(!file) return err = "File does not exist."
 
-            if(file.size > 1024 * 1024 * 50){
-                return err = "The image/video largest is 50mb."
+            if(file.size > 1024 * 1024 * 1024){
+                return err = "The image/video largest is 1gb."
             }
 
             return newMedia.push(file)

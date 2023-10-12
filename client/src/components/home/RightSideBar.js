@@ -44,7 +44,7 @@ const RightSideBar = () => {
                     https://www.youtube.com/c/blank
                 </a>
                 <small className="d-block">
-                    Welcome to our channel "DevAT-VietNam"
+                    Welcome to our channel "Raman"
                 </small>
 
                 <small>

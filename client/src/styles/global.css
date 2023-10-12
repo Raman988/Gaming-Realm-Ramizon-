@@ -43,13 +43,13 @@ code {
 .App {
   width: 100%;
   min-height: 100vh;
-  background-image: url('newc.jpg');
+  background-image: url('w.jpg');
   background-size: cover;
   background-attachment: fixed;
   /* display: flex; */
 }
 .main {
-  max-width: 1000px;
+  max-width: 1200px;
   width: 100%;
   min-height: 100vh;
   margin: auto;
